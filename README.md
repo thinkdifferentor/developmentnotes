@@ -18,4 +18,6 @@
 
 - [深入理解面试题](https://github.com/ThinkDifferenter/deepthinkingnotes/blob/main/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
+- [深入理解计算机网络](深入理解计算机网络.md)
 
+- [深入理解消息中间件](深入理解消息中间件.md)

@@ -201,5 +201,5 @@
 
 14. 字符串连接操作的两种方式:① 采用字符串连接操作符的形式 ② 采用StringBuilder对象并调用append()方法的方式；相比之下，前者每次做连接操作时需要创建一个StringBuilder对象和调用toString()方法时，需要创建String对象。一方面在需要做大量连接操作的场景中，每次连接操作创建对象需要花费一定时间，另一方面，创建的对象会占用堆空间的内存并在进行垃圾回收时需要花费一定时间。对于使用StringBuilder对象并调用append()方法的方式，不论做多少次字符串的连接操作，始终只有一个StringBuilder对象存在，可以优化的点在于创建StringBuilder对象时可以根据具体业务需求指定StringBuilder的大小，减少StringBuilder对象频繁扩容所带来的额外开销。
 
-15. 创建字符串常量并添加到字符串常量池方式：①通过字面量的方式定义字符串 String str = "java" ; ②通过 ***.intern()的方式向常量池中动态添加字符串常量，具体形式如 String str = new String("java").intern() | new StringBuilder("java").toString().intern()。
+15. 创建字符串常量并添加到字符串常量池方式：①通过字面量的方式定义字符串 String str = "java"; ②通过 ***.intern()的方式向常量池中动态添加字符串常量，具体形式如 String str = new String("java").intern() | new StringBuilder("java").toString().intern()。
 
