@@ -1,6 +1,8 @@
 # Deepthinking Notes
 
 - [深入理解数据结构与算法](深入理解数据结构与算法.md)
+
+- [深入理解计算机网络](深入理解计算机网络.md)
   
 - [深入理解Java语言](深入理解Java语言.md)
   
@@ -19,8 +21,8 @@
 - [深入理解SpringBoot](深入理解SpringBoot.md)
   
 - [深入理解SpringCloud](深入理解SpringCloud.md)
-
-- [深入理解计算机网络](深入理解计算机网络.md)
+  
+- [深入理解Dubbo](深入理解Dubbo.md)
 
 - [深入理解消息中间件](深入理解消息中间件.md)
 
