@@ -217,3 +217,4 @@
 
 15. 创建字符串常量并添加到字符串常量池方式：①通过字面量的方式定义字符串 String str = "java"; ②通过 ***.intern()的方式向常量池中动态添加字符串常量，具体形式如 String str = new String("java").intern() | new StringBuilder("java").toString().intern()。
 
+16. 在调用intern()方法前，**先考虑字符串常量池中是否已经存在该字符串常量**，如存在intern方法只返回该字符串在字符串常量池中地址。
